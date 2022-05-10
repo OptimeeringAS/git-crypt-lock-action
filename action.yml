@@ -1,0 +1,13 @@
+name: 'Git-Crypt Lock'
+
+author: 'Optimeering AS'
+
+description: 'Action to Lock files encrypted using Git-Crypt, supports keys with passphrase'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'lock'  
+  color: 'yellow'
